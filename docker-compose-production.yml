@@ -11,7 +11,7 @@ services:
             --entryPoints.https.address=:443
             --certificatesresolvers.letsEncrypt.acme.httpChallenge=true
             --certificatesresolvers.letsEncrypt.acme.httpChallenge.entryPoint=http
-            --certificatesresolvers.letsEncrypt.acme.email=mail@deworker.pro
+            --certificatesresolvers.letsEncrypt.acme.email=mail@phpqa.ru
             --certificatesresolvers.letsEncrypt.acme.storage=/certs/acme.json
         ports:
             - target: 80
